@@ -1,0 +1,8 @@
+afficher(){
+echo " donner le nom du fichier "
+read nom ;
+dpkg -S $nom
+}
+
+
+

@@ -1,0 +1,6 @@
+descrip () {
+
+dpkg -s coreutils | grep  "Description"
+
+
+}
